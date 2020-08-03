@@ -14,7 +14,7 @@ jsLocation = os.getcwd() + "/JS/SHORTURLtemplate.js"
 #Opens csv
 csv_file = open(directory +  'labelLinks.csv', 'r')
 csv_reader = csv.DictReader(csv_file)
-lcount = 0 
+lcount = 1 
 # This """""" lcount could be replaced with a line by line read of the id field from the csv, notes at the end. 
 
 # for loop that reads csv and outputs each row as a JSON file, creates a HTML with the script tag to a JS of the same Name, both our copied/created and moved to a Folder with the same name. The JS when called will find the JSON in the root directory of the system and redirect the user. 
