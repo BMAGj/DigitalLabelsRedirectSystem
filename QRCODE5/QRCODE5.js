@@ -15,7 +15,7 @@ var me;
 //  (converts to string and sets transfer variable to hold data in replacing routine)
 
 me = me.toString()
-console.log(me) 
+
 var transfer1 = "insert something witty and pointless in here"
 
 me2 = me 
@@ -31,13 +31,12 @@ function UpperCaseArray(input) {
 me3 = arr.pop();
 me4 = me3 
 me4 = me4.replace(".js","");
-console.log(me3)
-console.log(me4)
+
 // Finds JSON From its own name through replacements 
 
 
 var transfer1 = me2.replace(".js",".json");
-console.log(transfer1)
+
 var transfer2 = transfer1.replace("/" + me4 + "/", "/");
 var transfer3 = transfer2.replace()
 
