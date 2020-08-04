@@ -46,6 +46,9 @@ for row in csv_reader:
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+gtag('config', 'UA-174478321-1', {
+  'NFC': {'metric<Index>': 'UA-174478321-1'}
+});
 
   gtag('config', 'UA-174478321-1');
 </script>
