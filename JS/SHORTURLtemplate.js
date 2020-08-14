@@ -61,5 +61,5 @@ var json_obj = JSON.parse(Get(me));
 
 link = json_obj.Location.toString()
 
-  window.location = link;
+  window.location.replace = link;
   
